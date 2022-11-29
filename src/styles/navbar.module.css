@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: hsl(179 55% 27%);
+  align-items: center;
+  padding: 8px 18px;
+  margin-bottom: 2rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h4 {
+  color: white;
+}
+.logo img {
+  height:30px;
+  width: 100px;
+  
+}
+.author {
+  font-size: 1.7rem;
+  color: #92add7;
+  height:30px;
+   border-radius: 9px;
+ }

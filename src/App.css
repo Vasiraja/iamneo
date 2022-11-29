@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-div {
+  padding: 8px 18px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

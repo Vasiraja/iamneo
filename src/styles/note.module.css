@@ -1,0 +1,72 @@
+.note {
+  background: hsl(0 100% 100% / 0.1);
+  border-radius: 6px;
+  box-shadow: 0 10px 20px hsl(0 0% 0% / 0.22);
+  min-width: 280px;
+  max-width: 280px;
+  padding: 8px;
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note h3 {
+  color: hsl(0 0% 0% / .88);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-bottom: 12px;
+}
+
+.note p {
+  font-size: 1em;
+  color: hsl(0 0% 0% / 0.68);
+  margin-bottom: 9px;
+  word-wrap: break-word;
+}
+
+.buttonWrap {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+}
+.buttonWrap button {
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: inset 2px 3px 3px hsl(0 0% 0% / 0.22),
+    inset -2px -3px 8px hsl(0 100% 100% / 0.33), 0 5px 10px hsl(0 0% 0%/ 0.22);
+  outline: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.edit {
+  background: hsl(0 0% 44%/ 0.88);
+  border: 0.3px solid hsl(0 0% 74%/ 0.88);
+  color: hsl(0 0% 74%/ 0.88);
+}
+.update {
+  background: hsl(140 100% 38% / 0.88);
+  border: 0.3px solid hsl(140 100% 58% / 0.65);
+  color: hsl(140 100% 78% / 0.95);
+  display: none;
+}
+.delete {
+  background: hsl(0 100% 38% / 0.88);
+  color: hsl(0 100% 78% / 0.88);
+  border: 0.3px solid hsl(0 100% 68% / 0.88);
+}
+
+.buttonWrap button svg {
+  pointer-events: none;
+}
+
+h3[contentEditable="true"],
+p[contentEditable="true"] {
+  border: 1px solid hsl(0 100% 100% / 0.2);
+  outline: none;
+  background: hsl(0 100% 100% / 0.1);
+  border-radius: 5px;
+  padding: 5px;
+}
